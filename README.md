@@ -24,7 +24,7 @@ One simple solution is to represent each chopstick with a semaphore. A
 philosopher tries to grab a chopstick by executing a wait() operation on that
 semaphore. She releases her chopsticks by executing the signal() operation
 on the appropriate semaphores.
-ALGORITHM FOR OUR CODE 
+<br>ALGORITHM FOR OUR CODE 
 <br>-Define the number of philosophers
 <br>-Declare one thread per philosopher
 <br>-Declare one mutex(represent chopsticks) per philosopher
