@@ -1,4 +1,4 @@
-<H><b><center>DINING PHILOSOPHERS PROBLEM</center></b></H>
+<H><b><center>                                    DINING PHILOSOPHERS PROBLEM</center></b></H>
 <br>
 <b>1.Project Description</b>
 <br>
