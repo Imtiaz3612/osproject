@@ -1,7 +1,7 @@
 Dining Philosophers Problem 
 ---------------------------
 <br>
-##1.Project Description
+## 1.Project Description
 <br>
 >In computer science, the dining philosophers problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them.
 The dining-philosophers problem is considered a classic synchronization problem neither because of its practical importance nor because computer scientists dislike philosophers but because it is an example of a large class of concurrency-control problems.
