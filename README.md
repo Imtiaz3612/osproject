@@ -1,6 +1,7 @@
-<H><b><center>                                    DINING PHILOSOPHERS PROBLEM</center></b></H>
+Dining Philosophers Problem 
+---------------------------
 <br>
-<b>1.Project Description</b>
+##1.Project Description
 <br>
 >In computer science, the dining philosophers problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them.
 The dining-philosophers problem is considered a classic synchronization problem neither because of its practical importance nor because computer scientists dislike philosophers but because it is an example of a large class of concurrency-control problems.
@@ -8,7 +9,7 @@ It was originally formulated in 1965 by Edsger Dijkstra as a student exam exer
 
 
 
-<b>2.Problem Statement</b>
+## <b>2.Problem Statement</b>
  <br>
 >Five silent philosophers sit at a round table around a bowl of spaghetti. chopsticks are placed between each pair of adjacent philosophers.
 Each philosopher must alternately think and eat. However, a philosopher can only eat spaghetti when they have both left and right chopsticks . Each chopstick can be held by only one philosopher and so a philosopher can use the chopstick only if it is not being used by another philosopher. After an individual philosopher finishes eating , they need to put down both forks so that the forks become available to others. A philosopher can take the fork on their right or the one on their left as they become available, but cannot start eating before getting both chopsticks .
