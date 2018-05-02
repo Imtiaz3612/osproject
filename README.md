@@ -43,10 +43,10 @@ on the appropriate semaphores.
 
 ## 4.Project Result</b>
 <br>
--Getting rid of deadlock by properly synchronizing .
--Meeting need to allocate several resources among several processes in a deadlock-free and
+Getting rid of deadlock by properly synchronizing .
+Meeting need to allocate several resources among several processes in a deadlock-free and
 starvation-free manner.
-
+The main Objective of this project was to learn the use of semaphore and to understand the concept of deadlock and way to resolve this problem.
 
 
 
@@ -54,6 +54,6 @@ starvation-free manner.
 Abraham silberschatz operating system concepts 
 Wikipedia
 
-## Acknowledgement
+## 6.Acknowledgement
 We would like to thank Mam Sumaiyah faculty of FAST NUCES karachi (https://pk.linkedin.com/in/sumaiyahzahid) , for assigning this project to us. It was because of his lectures and guidance that We are able to complete this project. 
 
