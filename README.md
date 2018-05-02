@@ -27,17 +27,17 @@ philosopher tries to grab a chopstick by executing a wait() operation on that
 semaphore. She releases her chopsticks by executing the signal() operation
 on the appropriate semaphores.
 **ALGORITHM FOR OUR CODE** 
-1-Define the number of philosophers
-2-Declare one thread per philosopher
-3-Declare one mutex(represent chopsticks) per philosopher
-4-When a philosopher is hungry
-5-See if chopsticks on both sides are free
-6  -acquire chopsticks
-7 -eat
-8 -restore the chopsticks
-9 -If chopsticks aren’t free
-10 -wait till they’re available
-11 - repeat endlessly
+1. Define the number of philosophers
+2. Declare one thread per philosopher
+3. Declare one mutex(represent chopsticks) per philosopher
+4. When a philosopher is hungry
+5. See if chopsticks on both sides are free
+6.  acquire chopsticks
+7. eat
+8. restore the chopsticks
+9. If chopsticks aren’t free
+10. wait till they’re available
+11.  repeat endlessly
 
 
 
