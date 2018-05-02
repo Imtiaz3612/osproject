@@ -41,13 +41,13 @@ on the appropriate semaphores.
 
 <b>4.Project Result</b>
 <br>
--Getting rid of deadlock by properly synchronizing .
--Meeting need to allocate several resources among several processes in a deadlock-free and
+>-Getting rid of deadlock by properly synchronizing .
+<br>-Meeting need to allocate several resources among several processes in a deadlock-free and
 starvation-free manner.
 
 
 
 
 <b>5.References</b>
-Abraham silberschatz operating system concepts 
-Wikipedia
+>Abraham silberschatz operating system concepts 
+<br>Wikipedia
