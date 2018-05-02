@@ -1,6 +1,3 @@
-# Credits
-
-Credits for Wikipedia editors.
 
 # Problem statement
 
@@ -14,14 +11,8 @@ Five silent philosophers sit at a round table with bowls of spaghetti. Forks are
 
 > The problem is how to design a discipline of behavior (a concurrent algorithm) such that no philosopher will starve; i.e., each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.
 
-[source](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
 
 
 
-<details>
-  <summary>Tips:</summary>
-  <ul>
-    <li>Consider usage of Actor pattern</li>
-    <li>library that easier actor pattern usage: [kontrator](https://github.com/RuedigerMoeller/kontraktor)</li>
-  </ul>
-</details>
+
+
