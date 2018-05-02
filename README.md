@@ -3,6 +3,7 @@
 <b>1.Project Description</b>
 <br>
 >In computer science, the dining philosophers problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them.
+The dining-philosophers problem is considered a classic synchronization problem neither because of its practical importance nor because computer scientists dislike philosophers but because it is an example of a large class of concurrency-control problems.
 It was originally formulated in 1965 by Edsger Dijkstra as a student exam exercise, presented in terms of computers competing for access to tape drive peripherals. Soon after, Tony Hoare gave the problem its present formulation
 
 
@@ -18,15 +19,36 @@ The problem is how to design a discipline of behaviour (a concurrent algorithm) 
 
 <b>3.Procedure and Method/implementation (You applied)</b>
 <br>
-We used semaphore , each 
+> We used Semaphore and threads to demonstrate and solve the problem 
+One simple solution is to represent each chopstick with a semaphore. A
+philosopher tries to grab a chopstick by executing a wait() operation on that
+semaphore. She releases her chopsticks by executing the signal() operation
+on the appropriate semaphores.
+
+ALGORITHM FOR OUR CODE 
+-Define the number of philosophers
+-Declare one thread per philosopher
+-Declare one mutex(represent chopsticks) per philosopher
+-When a philosopher is hungry
+-See if chopsticks on both sides are free
+  -acquire chopsticks
+ -eat
+-restore the chopsticks
+-If chopsticks aren’t free
+-wait till they’re available
+- repeat endlessly
 
 
 
 <b>4.Project Result</b>
 <br>
+-Getting rid of deadlock by properly synchronizing .
+-Meeting need to allocate several resources among several processes in a deadlock-free and
+starvation-free manner.
 
 
 
 
 <b>5.References</b>
-
+Abraham silberschatz operating system concepts 
+Wikipedia
