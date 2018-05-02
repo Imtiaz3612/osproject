@@ -19,7 +19,7 @@ The problem is how to design a discipline of behaviour (a concurrent algorithm) 
 
 
 
-## 3.Procedure and Method/implementation (You applied)
+## 3.Procedure and Method/implementation
 
 We used Semaphore and threads to demonstrate and solve the problem 
 One simple solution is to represent each chopstick with a semaphore. A
