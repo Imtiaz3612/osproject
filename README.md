@@ -55,5 +55,5 @@ Abraham silberschatz operating system concepts
 Wikipedia
 
 ## 6.Acknowledgement
-We would like to thank Mam Sumaiyah faculty of FAST NUCES karachi (https://pk.linkedin.com/in/sumaiyahzahid) , for assigning this project to us. It was because of her lectures and guidance that we are able to complete this project. 
+We would like to thank Ma'am Sumaiyah faculty of FAST NUCES karachi (https://pk.linkedin.com/in/sumaiyahzahid) , for assigning this project to us. It was because of her lectures and guidance that we are able to complete this project. 
 
