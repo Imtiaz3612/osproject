@@ -16,7 +16,7 @@ struct Philosopher{
 
 };
 
-struct Philosopher P[5]={{"Proffessor A",0},{"Proffessor B",1},{"Proffessor C",2},{"Proffessor D",3},{"Proffessor E",4}};
+struct Philosopher P[5]={{"Professor A",0},{"Professor B",1},{"Professor C",2},{"Professor D",3},{"Professor E",4}};
 int ProcessCurrantState[5];
 
 
