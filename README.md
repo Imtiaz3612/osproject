@@ -29,7 +29,7 @@ on the appropriate semaphores.
 * **ALGORITHM FOR OUR CODE** 
 1. Define the number of philosophers
 2. Declare one thread per philosopher
-3. Declare one mutex(represent chopsticks) per philosopher
+3. Declare one semaphore(represent chopsticks) per philosopher
 4. When a philosopher is hungry
 5. See if chopsticks on both sides are free
 6.  acquire chopsticks
